@@ -30,7 +30,7 @@ body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(line-height-base);
+    line-height: var(--line-height-base);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6{
 
 a {
     color: #161616;
+    font-style: none;
 }
 
 .visually-hidden{

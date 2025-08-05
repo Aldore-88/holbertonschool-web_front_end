@@ -91,10 +91,6 @@ ul.row{
     list-style:none;
 }
 
-ul.footer{
-    text-align: right;
-}
-
 .col-1-3{
     width: 33.33%;
     float: left;
@@ -192,4 +188,8 @@ ul.footer{
 
 .footer{
     padding: var(--footer-padding);
+}
+
+.footer ul{
+    text-align: right;
 }
